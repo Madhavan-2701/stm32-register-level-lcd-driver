@@ -1,0 +1,36 @@
+Features
+-> Register-level GPIO programming
+-> LCD initialization sequence
+-> 4-bit communication
+-> Command transmission
+-> Character transmission
+-> String display
+-> Enable pulse generation
+-> Delay implementation
+Hardware
+-> STM32F407 Discovery Board
+-> JHD162A (HD44780 Compatible LCD)
+-> 10K Potentiometer
+-> Breadboard
+-> Jumper Wires
+LCD Connections
+LCD Pin	STM32 Pin
+-> RS	PD0
+-> EN	PD1
+-> D4	PD2
+-> D5	PD3
+-> D6	PD4
+-> D7	PD5
+-> RW	GND
+-> VSS	GND
+-> VDD	+5V
+-> VO	Potentiometer
+Learning Outcomes
+-> GPIO Register Programming
+-> RCC Clock Configuration
+-> MODER Register
+-> ODR Register
+-> LCD 4-bit Protocol
+-> HD44780 Initialization Sequence
+-> Embedded C Programming
+-> Peripheral Datasheet Reading
